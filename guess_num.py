@@ -1,7 +1,7 @@
 import random
 
-i = input('請輸入第一個數字: ')
-j = input('請輸入第二個數字: ')
+i = input('請輸入起始數字: ')
+j = input('請輸入結束數字: ')
 i, j = int(i), int(j)
 count = 0
 r = random.randint(i, j)
